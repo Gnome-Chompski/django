@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+{% load staticfiles %}
+
+<html>
+    <head>
+        <title> About </title>
+    </head>
+
+    <body>
+        <h1> Testerino </h1> <br />
+        <div>
+            Look for a static image <br />
+        </div>
+        <div>
+            <img src="{% static "images/Gnomey.jpg" %}" alt="Gnome Chompski"> <br />
+            And now for a media file
+        </div>
+        <div>
+            <img /> Furball <img src="{{MEDIA_URL}}cat.jpg"/>
